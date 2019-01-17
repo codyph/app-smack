@@ -12,6 +12,7 @@
 		D431207821ECA6E600AAE56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D431207621ECA6E600AAE56F /* Main.storyboard */; };
 		D431207A21ECA6E700AAE56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D431207921ECA6E700AAE56F /* Assets.xcassets */; };
 		D431207D21ECA6E700AAE56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D431207B21ECA6E700AAE56F /* LaunchScreen.storyboard */; };
+		D44167CF21F0855400CD1A96 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44167CE21F0855400CD1A96 /* GradientView.swift */; };
 		D496CC1D21ECDBB2009F7E7B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496CC1C21ECDBB2009F7E7B /* ChatVC.swift */; };
 		D496CC1F21ECDBC7009F7E7B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496CC1E21ECDBC7009F7E7B /* ChannelVC.swift */; };
 		D4D585D221ECABAF00086504 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D585D021ECABAE00086504 /* SWRevealViewController.m */; };
@@ -26,6 +27,7 @@
 		D431207921ECA6E700AAE56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D431207C21ECA6E700AAE56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D431207E21ECA6E700AAE56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44167CE21F0855400CD1A96 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D496CC1C21ECDBB2009F7E7B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		D496CC1E21ECDBC7009F7E7B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		D4D585CF21ECABAE00086504 /* app-smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		D496CC1A21ECC665009F7E7B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D44167CE21F0855400CD1A96 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				D496CC1F21ECDBC7009F7E7B /* ChannelVC.swift in Sources */,
 				D496CC1D21ECDBB2009F7E7B /* ChatVC.swift in Sources */,
+				D44167CF21F0855400CD1A96 /* GradientView.swift in Sources */,
 				D431207321ECA6E600AAE56F /* AppDelegate.swift in Sources */,
 				D4D585D221ECABAF00086504 /* SWRevealViewController.m in Sources */,
 			);
