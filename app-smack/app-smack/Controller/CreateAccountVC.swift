@@ -28,7 +28,7 @@ class CreateAccountVC: UIViewController {
     
     
     @IBAction func chooseAvatarTapped(_ sender: Any) {
-        
+        performSegue(withIdentifier: TO_AVATAR_PICKER, sender: nil)
     }
     
     @IBAction func pickBGColorTapped(_ sender: Any) {
