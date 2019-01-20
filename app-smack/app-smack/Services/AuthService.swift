@@ -117,7 +117,6 @@ class AuthService {
     }
     
     func findUserByEmail(completion: @escaping CompletionHandler) {
-        print("5")
         Alamofire.request("\(URL_USER_BY_EMAIL)\(userEmail)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
             
             if response.result.error == nil {
@@ -130,12 +129,10 @@ class AuthService {
             }
             
         }
-        print("6")
         
     }
     
     func setUserInfo(data: Data) {
-        print("3")
         do {
             let json = try JSON(data: data)
             let id = json["_id"].stringValue
@@ -145,7 +142,6 @@ class AuthService {
             let name = json["name"].stringValue
             UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
         } catch _ as NSError {}
-        print("4")
     }
     
     
