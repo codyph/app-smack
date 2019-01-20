@@ -150,6 +150,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJ1-Te-8Ox">
                                 <rect key="frame" x="281" y="83.5" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
+                                <connections>
+                                    <action selector="addChannelBtnTapped:" destination="RR5-1m-i5b" eventType="touchUpInside" id="WDD-gm-PVC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
