@@ -21,6 +21,7 @@
 		D44167DD21F16BFC00CD1A96 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44167DC21F16BFC00CD1A96 /* UserDataService.swift */; };
 		D44167DF21F220F000CD1A96 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44167DE21F220F000CD1A96 /* AvatarPickerVC.swift */; };
 		D44167E121F222B700CD1A96 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44167E021F222B700CD1A96 /* AvatarCell.swift */; };
+		D44167E321F4761000CD1A96 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44167E221F4761000CD1A96 /* CircleImage.swift */; };
 		D496CC1D21ECDBB2009F7E7B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496CC1C21ECDBB2009F7E7B /* ChatVC.swift */; };
 		D496CC1F21ECDBC7009F7E7B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D496CC1E21ECDBC7009F7E7B /* ChannelVC.swift */; };
 		D4D585D221ECABAF00086504 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D585D021ECABAE00086504 /* SWRevealViewController.m */; };
@@ -44,6 +45,7 @@
 		D44167DC21F16BFC00CD1A96 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		D44167DE21F220F000CD1A96 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		D44167E021F222B700CD1A96 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		D44167E221F4761000CD1A96 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D496CC1C21ECDBB2009F7E7B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		D496CC1E21ECDBC7009F7E7B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		D4D585CF21ECABAE00086504 /* app-smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				D44167CE21F0855400CD1A96 /* GradientView.swift */,
 				D44167DA21F0A4E500CD1A96 /* RoundedButton.swift */,
 				D44167E021F222B700CD1A96 /* AvatarCell.swift */,
+				D44167E221F4761000CD1A96 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				D496CC1F21ECDBC7009F7E7B /* ChannelVC.swift in Sources */,
 				D44167DF21F220F000CD1A96 /* AvatarPickerVC.swift in Sources */,
 				D44167DB21F0A4E500CD1A96 /* RoundedButton.swift in Sources */,
+				D44167E321F4761000CD1A96 /* CircleImage.swift in Sources */,
 				D496CC1D21ECDBB2009F7E7B /* ChatVC.swift in Sources */,
 				D44167DD21F16BFC00CD1A96 /* UserDataService.swift in Sources */,
 				D44167D621F0907D00CD1A96 /* CreateAccountVC.swift in Sources */,
