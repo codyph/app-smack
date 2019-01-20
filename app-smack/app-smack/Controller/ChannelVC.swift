@@ -9,7 +9,7 @@
 import UIKit
 
 class ChannelVC: UIViewController {
-
+    
     // Outlets
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var userImg: CircleImage!
@@ -37,8 +37,14 @@ class ChannelVC: UIViewController {
     
     
     @IBAction func loginBtnTapped(_ sender: Any) {
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
-        
+        if AuthService.instance.isLoggedIn {
+            // Show profile page
+            let profile = ProfileVC()
+            profile.modalPresentationStyle = .custom
+            present(profile, animated: true, completion: nil)
+        } else {
+            performSegue(withIdentifier: TO_LOGIN, sender: nil)
+        }
     }
     
 }
