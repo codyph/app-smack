@@ -209,6 +209,9 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginBtnTapped:" destination="7sc-Yb-gVp" eventType="touchUpInside" id="fej-lA-LUY"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="MhX-lE-giX">
                                 <rect key="frame" x="126.5" y="80" width="122.5" height="40"/>
@@ -263,6 +266,10 @@
                                     </view>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="sR4-Fn-382">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYE-Lv-FRI">
                                 <rect key="frame" x="62.5" y="336" width="250" height="26"/>
                                 <constraints>
@@ -283,8 +290,10 @@
                             <constraint firstItem="MhX-lE-giX" firstAttribute="centerX" secondItem="nAz-Kg-QYe" secondAttribute="centerX" id="ATk-0t-PEC"/>
                             <constraint firstItem="ILU-Fx-4Bq" firstAttribute="trailing" secondItem="iaP-pS-G6C" secondAttribute="trailing" constant="16" id="FkM-py-NMt"/>
                             <constraint firstItem="iaP-pS-G6C" firstAttribute="top" secondItem="ILU-Fx-4Bq" secondAttribute="top" constant="8" id="Hsf-oB-ELv"/>
+                            <constraint firstItem="sR4-Fn-382" firstAttribute="centerX" secondItem="nAz-Kg-QYe" secondAttribute="centerX" id="Npj-yh-H71"/>
                             <constraint firstItem="jYE-Lv-FRI" firstAttribute="top" secondItem="Cz3-vb-A1c" secondAttribute="bottom" id="VPf-1x-U53"/>
                             <constraint firstItem="9Zm-nG-ovC" firstAttribute="top" secondItem="MhX-lE-giX" secondAttribute="bottom" constant="40" id="Y3F-FX-hBO"/>
+                            <constraint firstItem="sR4-Fn-382" firstAttribute="centerY" secondItem="nAz-Kg-QYe" secondAttribute="centerY" constant="-100" id="eOq-fG-Ksb"/>
                             <constraint firstItem="jYE-Lv-FRI" firstAttribute="centerX" secondItem="nAz-Kg-QYe" secondAttribute="centerX" id="f11-Xc-ybR"/>
                             <constraint firstItem="Cz3-vb-A1c" firstAttribute="centerX" secondItem="nAz-Kg-QYe" secondAttribute="centerX" id="fiL-Ty-ZoP"/>
                             <constraint firstItem="9Zm-nG-ovC" firstAttribute="centerX" secondItem="nAz-Kg-QYe" secondAttribute="centerX" id="kFh-Tu-x92"/>
@@ -293,6 +302,9 @@
                         <viewLayoutGuide key="safeArea" id="ILU-Fx-4Bq"/>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="HgS-Ow-Wtj" id="XCr-Ur-s1W"/>
+                        <outlet property="spinner" destination="sR4-Fn-382" id="wPy-y7-iWy"/>
+                        <outlet property="usernameTxt" destination="xSh-2b-nUU" id="hJ2-iS-eOP"/>
                         <segue destination="4XF-kH-Zoo" kind="show" identifier="toCreateAccountVC" id="FxP-lQ-gW6"/>
                     </connections>
                 </viewController>
