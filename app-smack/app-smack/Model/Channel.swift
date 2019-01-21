@@ -8,11 +8,10 @@
 
 import Foundation
 
-struct Channel : Decodable {
+struct Channel {
     
-    private(set) var _id: String!
-    private(set) var name: String!
-    private(set) var description: String!
-    private(set) var __v: Int!
+    private(set) var channelTitle: String!
+    private(set) var channelDescription: String!
+    private(set) var id: String!
     
 }

@@ -29,7 +29,8 @@ class ChannelCell: UITableViewCell {
     }
     
     func configureCell(channel: Channel) {
-        channelName.text = "#\(channel.name!)"
+        let title = channel.channelTitle ?? ""
+        channelName.text = "#\(title)"
     }
 
 }
